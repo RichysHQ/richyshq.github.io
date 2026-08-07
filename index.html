@@ -81,14 +81,19 @@
                     <div id="container">
                       <div id="twitch_wrapper"><!--twitch: https://dev.twitch.tv/docs/embed/everything-->
                         <div class="twitch-stream"><!-- Add a placeholder for the Twitch embed -->
-                          <div id="twitch-embed"></div><!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-                          <script type="text/javascript"> new Twitch.Embed("twitch-embed", {
-                    width: "100%",
-                    height: "100%",
-                    theme: "dark",
-                    channel: "richyshq",
-					autoplay: true,
-					layout: "video-with-chat",
+                          <div id="twitch-embed"></div><!-- Create a  object that will render within the "twitch-embed" root element. -->
+                          <script type="text/javascript">  new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: "100%",
+        theme: "dark",
+        channel: "richyshq",
+        autoplay: true,
+        layout: "video-with-chat",
+       parent: [
+    "richyshq.tv",
+    "richyshq.github.io"
+]
+    });
                 }); </script>
                         </div>
                       </div>
