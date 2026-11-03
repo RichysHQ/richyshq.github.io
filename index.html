@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RichysHQ</title>
+  <meta name="description" content="Tune into the hottest stream on Twitch! Watch live at twitch.tv/RichysHQ.">
+  <meta name="keywords" content="Streamer, gamer, content creator, Richy, RichysHQ, Glizzy Gang">
+  <meta name="theme-color" content="#0f0b1a">
+  <link rel="canonical" href="https://richyshq.tv/">
+  <link rel="icon" href="images/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RichysHQ">
+  <meta property="og:description" content="Watch on twitch.tv/RichysHQ">
+  <meta property="og:url" content="https://richyshq.tv">
+  <meta property="og:image" content="https://richyshq.tv/images/social-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RichysHQ">
+  <meta name="twitter:description" content="Watch on twitch.tv/RichysHQ">
+  <meta name="twitter:image" content="https://richyshq.tv/images/social-banner.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "RichysHQ",
+    "url": "https://richyshq.tv",
+    "sameAs": [
+      "https://www.twitch.tv/richyshq",
+      "https://x.com/RichysHQ",
+      "https://www.instagram.com/linguini_jefferson/",
+      "https://www.tiktok.com/@richyshq",
+      "https://www.youtube.com/channel/UCr6kqF9zX9cA59nv3IWg4Ow",
+      "https://discord.gg/kSafZFtSKw"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== Header / linktree ===== -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="RichysHQ home">
+        <img src="images/logo.png" alt="" width="40" height="40">
+        <span>RichysHQ</span>
+      </a>
+
+      <nav class="links" aria-label="Social links">
+        <a class="chip chip-twitch" href="https://www.twitch.tv/richyshq" target="_blank" rel="noopener" aria-label="Twitch">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 2 2 6.5V20h5v3h3l3-3h4l5-5V2H4Zm16 11-3 3h-5l-3 3v-3H6V4h14v9Zm-3-6h-2v5h2V7Zm-5 0h-2v5h2V7Z"/></svg>
+          <span>Twitch</span>
+        </a>
+        <a class="chip" href="https://x.com/RichysHQ" target="_blank" rel="noopener" aria-label="X (Twitter)">
+          <img src="images/icon-x.png" alt="" width="20" height="20"><span>X</span>
+        </a>
+        <a class="chip" href="https://www.instagram.com/linguini_jefferson/" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="images/icon-instagram.png" alt="" width="20" height="20"><span>Instagram</span>
+        </a>
+        <a class="chip" href="https://www.tiktok.com/@richyshq" target="_blank" rel="noopener" aria-label="TikTok">
+          <img src="images/icon-tiktok.png" alt="" width="20" height="20"><span>TikTok</span>
+        </a>
+        <a class="chip" href="https://www.youtube.com/channel/UCr6kqF9zX9cA59nv3IWg4Ow" target="_blank" rel="noopener" aria-label="YouTube">
+          <img src="images/icon-youtube.png" alt="" width="20" height="20"><span>YouTube</span>
+        </a>
+        <a class="chip" href="https://discord.gg/kSafZFtSKw" target="_blank" rel="noopener" aria-label="Discord">
+          <img src="images/icon-discord.png" alt="" width="20" height="20"><span>Discord</span>
+        </a>
+        <a class="chip" href="mailto:richyshq@gmail.com" aria-label="Email">
+          <img src="images/icon-mail.png" alt="" width="20" height="20"><span>Email</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero + Twitch ===== -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <h1>RichysHQ</h1>
+        <p class="tagline">Tune into the hottest stream on Twitch!</p>
+
+        <div class="stream">
+          <div class="player">
+            <!-- Fallback card sits behind the iframe and shows if the embed can't load (ad blockers, etc.) -->
+            <div class="player-fallback">
+              <img src="images/social-banner.png" alt="" width="265" height="135">
+              <p>Can't load the stream preview here.</p>
+              <a class="btn btn-twitch" href="https://www.twitch.tv/richyshq" target="_blank" rel="noopener">Watch on Twitch</a>
+            </div>
+            <div id="twitch-player" class="embed-slot" data-channel="richyshq"></div>
+          </div>
+          <div class="chat">
+            <div id="twitch-chat" class="embed-slot" data-channel="richyshq"></div>
+          </div>
+        </div>
+        <p class="watch-row">
+          <a class="btn btn-twitch" href="https://www.twitch.tv/richyshq" target="_blank" rel="noopener">Open on Twitch</a>
+          <a class="btn btn-ghost" href="https://www.twitch.tv/richyshq/videos" target="_blank" rel="noopener">Past broadcasts</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Community ===== -->
+    <section class="section" id="community">
+      <div class="wrap">
+        <h2>Join the Glizzy Gang</h2>
+        <div class="grid two align-start">
+          <div class="card discord-card">
+            <iframe src="https://discord.com/widget?id=757015500248318022&amp;theme=dark" title="RichysHQ Discord server" width="100%" height="500" loading="lazy" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <a class="btn" href="https://discord.gg/kSafZFtSKw" target="_blank" rel="noopener">Join the Discord</a>
+          </div>
+          <a class="card nexus-card" href="https://www.nexus.gg/richyshq" target="_blank" rel="noopener">
+            <img src="images/nexus-creator.jpg" alt="RichysHQ on Nexus" width="940" height="494" loading="lazy">
+            <span class="btn">nexus.gg/richyshq</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Merch ===== -->
+    <section class="section alt" id="merch">
+      <div class="wrap grid two center-y">
+        <img class="rounded" src="images/merch-hoodies.jpg" alt="Glizzy Gang hoodies in four colors" width="2000" height="1000" loading="lazy">
+        <div>
+          <h2>Merch</h2>
+          <p>Follow socials to get notified when new merch drops!</p>
+          <a class="btn" href="#top" data-scroll-top>Back to socials</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Partners ===== -->
+    <section class="section" id="partners">
+      <div class="wrap">
+        <h2>Partners &amp; Codes</h2>
+        <div class="grid four">
+          <a class="card tile" href="https://www.etsy.com/shop/YourEngravingSupply" target="_blank" rel="noopener">
+            <img src="images/partner-thatled.png" alt="That LED Co: 10% off custom LEDs with code GLIZZY10" width="1280" height="1280" loading="lazy">
+          </a>
+          <a class="card tile" href="https://www.infinitymice.com/?bg_ref=qOTnYbCKhc" target="_blank" rel="noopener">
+            <img src="images/partner-infinitymice.png" alt="InfinityMice, creator code SHMEAT" width="320" height="320" loading="lazy">
+          </a>
+          <a class="card tile" href="https://www.turtlebeach.com/products/black-stealth-gen-2-600-xbox-max" target="_blank" rel="noopener">
+            <img src="images/partner-turtlebeach.jpg" alt="Turtle Beach Stealth headset" width="710" height="709" loading="lazy">
+          </a>
+          <a class="card tile" href="https://justasmile.clothing/" target="_blank" rel="noopener">
+            <img src="images/partner-justasmile.png" alt="justasmile.clothing: use code SHMEAT for 10% off" width="320" height="180" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Game IDs ===== -->
+    <section class="section alt" id="add-me">
+      <div class="wrap">
+        <h2>Add me &amp; play</h2>
+        <ul class="ids">
+          <li>
+            <span class="ico"><img src="images/icon-steam.png" alt="" width="40" height="40"></span>
+            <div><strong>Steam</strong><a href="https://steamcommunity.com/id/richyshq/" target="_blank" rel="noopener">66186880</a></div>
+            <button class="copy" type="button" data-copy="66186880">Copy</button>
+          </li>
+          <li>
+            <span class="ico"><img src="images/icon-switch.png" alt="" width="40" height="40"></span>
+            <div><strong>Nintendo Switch</strong><span>SW-1534-7987-9291</span></div>
+            <button class="copy" type="button" data-copy="SW-1534-7987-9291">Copy</button>
+          </li>
+          <li>
+            <span class="ico"><img src="images/icon-battlenet.png" alt="" width="40" height="40"></span>
+            <div><strong>Battle.net</strong><span>Richyshq#1630</span></div>
+            <button class="copy" type="button" data-copy="Richyshq#1630">Copy</button>
+          </li>
+          <li>
+            <span class="ico"><img src="images/icon-ea.png" alt="" width="40" height="40"></span>
+            <div><strong>EA app</strong><span>RichysHQ</span></div>
+            <button class="copy" type="button" data-copy="RichysHQ">Copy</button>
+          </li>
+          <li>
+            <span class="ico"><img src="images/icon-epic.png" alt="" width="40" height="40"></span>
+            <div><strong>Epic Games</strong><span>Coming soon</span></div>
+          </li>
+          <li>
+            <span class="ico dark"><img src="images/icon-discord.png" alt="" width="40" height="40"></span>
+            <div><strong>Discord</strong><a href="https://discord.gg/kSafZFtSKw" target="_blank" rel="noopener">Join the server</a></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <img src="images/logo.png" alt="Glizzy Gang" width="56" height="56">
+      <p>&copy; <span id="year">2026</span> Glizzy Gang, ltd.</p>
+    </div>
+  </footer>
+</body>
+</html>
